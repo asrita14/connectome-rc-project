@@ -1,4 +1,4 @@
-# connectome-rc-project
+# Connectome-RC-Project
 # Neuroinformatics Project
 
 This repository contains projects completed as part of coursework for the **Neuroinformatics** class (Spring 2025). The work focuses on applying **connectome-based architectures** in **reservoir computing** frameworks, exploring biological network structures to improve machine learning performance on cognitive tasks.
