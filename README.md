@@ -19,7 +19,7 @@ Experiments include tasks such as:
 - **Memory Capacity Testing** (Reservoir Computing Benchmark)
 
 ## Repository Structure
-
+```text
 ├── code/                  # Python scripts and Jupyter notebooks
 │   ├── snn_models/
 │   ├── mss_models/
