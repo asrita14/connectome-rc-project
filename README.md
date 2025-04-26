@@ -20,4 +20,29 @@ Experiments include tasks such as:
 
 ## Repository Structure
 
-├── code/ # Python scripts and Jupyter notebooks │ ├── snn_models/ │ ├── mss_models/ │ ├── esn_models/ │ └── utils/ ├── data/ # Connectome files (external links if too large) ├── figures/ # Visualizations (PCA plots, spike rasters, etc.) ├── results/ # Model evaluation results ├── report/ # Project reports, slides, supplementary material └── README.md # This file
+├── code/                  # Python scripts and Jupyter notebooks
+│   ├── snn_models/
+│   ├── mss_models/
+│   ├── esn_models/
+│   └── utils/
+├── data/                  # Connectome files (external links if too large)
+├── figures/               # Visualizations (PCA plots, spike rasters, etc.)
+├── results/               # Model evaluation results
+├── report/                # Project reports, slides, supplementary material
+└── README.md              # This file
+
+## Setup Instructions
+pip install --upgrade wheel==0.38.4 setuptools==65.5.1 "pip<24.1"
+git clone https://github.com/netneurolab/conn2res.git
+cd conn2res
+pip install .
+cd ..
+git clone -b v0.0.1 https://github.com/neurogym/neurogym.git
+cd neurogym
+pip install -e .
+
+## Acknowledgments
+
+conn2res toolbox: for connectome-based reservoir modeling.
+NeuroGym: for cognitive task datasets.
+Neuroinformatics course instructors: for guidance and feedback.
