@@ -32,6 +32,7 @@ Experiments include tasks such as:
 └── README.md              # This file
 ```
 ## Setup Instructions
+```
 pip install --upgrade wheel==0.38.4 setuptools==65.5.1 "pip<24.1"
 git clone https://github.com/netneurolab/conn2res.git
 cd conn2res
@@ -40,7 +41,7 @@ cd ..
 git clone -b v0.0.1 https://github.com/neurogym/neurogym.git
 cd neurogym
 pip install -e .
-
+```
 ## Acknowledgments
 
 conn2res toolbox: for connectome-based reservoir modeling.
