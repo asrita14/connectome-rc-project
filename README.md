@@ -44,6 +44,6 @@ pip install -e .
 ```
 ## Acknowledgments
 
-conn2res toolbox: for connectome-based reservoir modeling.
-NeuroGym: for cognitive task datasets.
-Neuroinformatics course instructors: for guidance and feedback.
+-conn2res toolbox: for connectome-based reservoir modeling.
+-NeuroGym: for cognitive task datasets.
+-Neuroinformatics course instructors: for guidance and feedback.
