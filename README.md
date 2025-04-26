@@ -30,7 +30,7 @@ Experiments include tasks such as:
 ├── results/               # Model evaluation results
 ├── report/                # Project reports, slides, supplementary material
 └── README.md              # This file
-
+```
 ## Setup Instructions
 pip install --upgrade wheel==0.38.4 setuptools==65.5.1 "pip<24.1"
 git clone https://github.com/netneurolab/conn2res.git
