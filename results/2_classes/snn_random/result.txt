@@ -1,0 +1,25 @@
+===== Evaluation Summary (Randomly Connected SNN) =====
+Accuracy: 1.0000
+Macro F1: 1.0000
+Micro F1: 1.0000
+Weighted F1: 1.0000
+
+Confusion Matrix:
+[[66  0]
+ [ 0 54]]
+
+Classification Report:
+              precision  recall  f1-score  support
+0                1.0000  1.0000    1.0000  66.0000
+1                1.0000  1.0000    1.0000  54.0000
+accuracy         1.0000  1.0000    1.0000   1.0000
+macro avg        1.0000  1.0000    1.0000 120.0000
+weighted avg     1.0000  1.0000    1.0000 120.0000
+
+Saving results to directory: figs_random_connected_snn
+Classification report saved to figs_random_connected_snn\classification_report_snn_random.csv
+Confusion matrix plot saved to figs_random_connected_snn\confusion_matrix_snn_random.png
+
+Generating PCA visualization of reservoir states (Random SNN)...
+PCA explained variance (Random SNN): PC1 = 0.05, PC2 = 0.05, Total = 0.10
+PCA projection saved to figs_random_connected_snn\reservoir_states_pca_snn_random.png

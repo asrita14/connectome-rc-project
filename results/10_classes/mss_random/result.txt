@@ -1,0 +1,86 @@
+===== Evaluation Summary (Randomly Connected MSS) =====
+Accuracy: 0.7375
+Macro F1: 0.7386
+Micro F1: 0.7375
+Weighted F1: 0.7373
+
+Confusion Matrix:
+[[27  1  3  3  1  0  0  3  1  2]
+ [ 3 31  2  2  1  1  2  0  3  4]
+ [ 1  0 23  0  2  0  1  2  0  2]
+ [ 0  2  0 30  0  5  2  0  0  2]
+ [ 0  0  0  2 26  1  1  0  1  3]
+ [ 1  0  2  0  0 26  1  0  1  1]
+ [ 0  2  0  1  2  0 38  0  1  2]
+ [ 1  0  1  1  1  1  1 34  1  2]
+ [ 0  1  1  0  0  3  3  1 29  1]
+ [ 0  3  1  2  0  0  3  4  0 31]]
+
+Classification Report:
+  Class 0:
+    precision: 0.8182
+    recall: 0.6585
+    f1-score: 0.7297
+    support: 41.0000
+  Class 1:
+    precision: 0.7750
+    recall: 0.6327
+    f1-score: 0.6966
+    support: 49.0000
+  Class 2:
+    precision: 0.6970
+    recall: 0.7419
+    f1-score: 0.7188
+    support: 31.0000
+  Class 3:
+    precision: 0.7317
+    recall: 0.7317
+    f1-score: 0.7317
+    support: 41.0000
+  Class 4:
+    precision: 0.7879
+    recall: 0.7647
+    f1-score: 0.7761
+    support: 34.0000
+  Class 5:
+    precision: 0.7027
+    recall: 0.8125
+    f1-score: 0.7536
+    support: 32.0000
+  Class 6:
+    precision: 0.7308
+    recall: 0.8261
+    f1-score: 0.7755
+    support: 46.0000
+  Class 7:
+    precision: 0.7727
+    recall: 0.7907
+    f1-score: 0.7816
+    support: 43.0000
+  Class 8:
+    precision: 0.7838
+    recall: 0.7436
+    f1-score: 0.7632
+    support: 39.0000
+  Class 9:
+    precision: 0.6200
+    recall: 0.7045
+    f1-score: 0.6596
+    support: 44.0000
+  accuracy: 0.7375
+  macro avg:
+    precision: 0.7420
+    recall: 0.7407
+    f1-score: 0.7386
+    support: 400.0000
+  weighted avg:
+    precision: 0.7427
+    recall: 0.7375
+    f1-score: 0.7373
+    support: 400.0000
+Classification report saved to figs_random_connected_mss_10cls\classification_report.csv
+Output files will be saved to directory: figs_random_connected_mss_10cls
+Confusion matrix plot saved to figs_random_connected_mss_10cls\confusion_matrix.png
+Generating PCA visualization of reservoir states (Randomly Connected Network)...
+PCA explained variance (Randomly Connected): PC1 = 0.29, PC2 = 0.05, Total = 0.34
+PCA projection saved to figs_random_connected_mss_10cls\reservoir_states_pca.png

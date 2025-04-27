@@ -1,0 +1,29 @@
+Training classifier (Randomly Connected Network)...
+
+===== Evaluation Summary (Randomly Connected MSS) =====
+Accuracy: 1.0000
+Macro F1: 1.0000
+Micro F1: 1.0000
+Weighted F1: 1.0000
+
+Confusion Matrix:
+[[66  0]
+ [ 0 54]]
+
+Classification Report:
+              precision  recall  f1-score  support
+0                1.0000  1.0000    1.0000  66.0000
+1                1.0000  1.0000    1.0000  54.0000
+accuracy         1.0000  1.0000    1.0000   1.0000
+macro avg        1.0000  1.0000    1.0000 120.0000
+weighted avg     1.0000  1.0000    1.0000 120.0000
+
+Classification report saved to figs_random_connected_mss\classification_report_mss_random.csv
+Output files will be saved to directory: figs_random_connected_mss
+Confusion matrix plot saved to figs_random_connected_mss\confusion_matrix_mss_random.png
+
+Generating PCA visualization of reservoir states (Randomly Connected Network)...
+PCA explained variance (Randomly Connected): PC1 = 0.51, PC2 = 0.12, Total = 0.63
+PCA projection saved to figs_random_connected_mss\reservoir_states_pca_random.png
+
+Script finished.

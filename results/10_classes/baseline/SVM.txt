@@ -1,0 +1,48 @@
+(CS9223) D:\CS9223\project\conn2res\examples\project_prototype>python baseline_SVM_10_classes.py
+Original data shape: (2000, 30, 2)
+Data flattened from (2000, 30, 2) to (2000, 60).
+Data loaded: Train samples=1600, Test samples=400, Input features=60
+Input features scaled.
+Training SVM Classifier...
+
+===== Evaluation Summary (SVM Classifier, 10 Classes) =====
+Accuracy: 1.0000
+Macro F1: 1.0000
+Micro F1: 1.0000
+Weighted F1: 1.0000
+
+Confusion Matrix:
+[[40  0  0  0  0  0  0  0  0  0]
+ [ 0 40  0  0  0  0  0  0  0  0]
+ [ 0  0 40  0  0  0  0  0  0  0]
+ [ 0  0  0 40  0  0  0  0  0  0]
+ [ 0  0  0  0 40  0  0  0  0  0]
+ [ 0  0  0  0  0 40  0  0  0  0]
+ [ 0  0  0  0  0  0 40  0  0  0]
+ [ 0  0  0  0  0  0  0 40  0  0]
+ [ 0  0  0  0  0  0  0  0 40  0]
+ [ 0  0  0  0  0  0  0  0  0 40]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        40
+           1       1.00      1.00      1.00        40
+           2       1.00      1.00      1.00        40
+           3       1.00      1.00      1.00        40
+           4       1.00      1.00      1.00        40
+           5       1.00      1.00      1.00        40
+           6       1.00      1.00      1.00        40
+           7       1.00      1.00      1.00        40
+           8       1.00      1.00      1.00        40
+           9       1.00      1.00      1.00        40
+
+    accuracy                           1.00       400
+   macro avg       1.00      1.00      1.00       400
+weighted avg       1.00      1.00      1.00       400
+
+Classification report saved to figs_baseline_svm_10cls\classification_report_svm_10cls.csv
+Predictions saved to figs_baseline_svm_10cls\predictions_svm_10cls.csv
+Confusion matrix plot saved to figs_baseline_svm_10cls\confusion_matrix_svm_10cls.png
+
+Baseline SVM script (10 classes) finished.

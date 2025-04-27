@@ -1,0 +1,87 @@
+===== Evaluation Summary (Random SNN Reservoir) =====
+Accuracy: 0.7525
+Macro F1: 0.7506
+Micro F1: 0.7525
+Weighted F1: 0.7535
+
+Confusion Matrix:
+[[29  0  2  2  1  1  1  2  2  1]
+ [ 1 39  1  1  0  2  0  3  2  0]
+ [ 3  0 22  1  1  0  1  1  1  1]
+ [ 3  1  0 30  3  2  1  0  0  1]
+ [ 0  1  0  4 26  1  1  0  0  1]
+ [ 3  1  0  0  0 27  1  0  0  0]
+ [ 3  0  1  3  4  0 31  2  0  2]
+ [ 1  0  2  0  2  1  1 34  1  1]
+ [ 0  1  0  1  3  3  2  2 26  1]
+ [ 2  0  0  3  0  1  1  0  0 37]]
+
+Classification Report:
+  Class 0:
+    precision: 0.6444
+    recall: 0.7073
+    f1-score: 0.6744
+    support: 41.0000
+  Class 1:
+    precision: 0.9070
+    recall: 0.7959
+    f1-score: 0.8478
+    support: 49.0000
+  Class 2:
+    precision: 0.7857
+    recall: 0.7097
+    f1-score: 0.7458
+    support: 31.0000
+  Class 3:
+    precision: 0.6667
+    recall: 0.7317
+    f1-score: 0.6977
+    support: 41.0000
+  Class 4:
+    precision: 0.6500
+    recall: 0.7647
+    f1-score: 0.7027
+    support: 34.0000
+  Class 5:
+    precision: 0.7105
+    recall: 0.8438
+    f1-score: 0.7714
+    support: 32.0000
+  Class 6:
+    precision: 0.7750
+    recall: 0.6739
+    f1-score: 0.7209
+    support: 46.0000
+  Class 7:
+    precision: 0.7727
+    recall: 0.7907
+    f1-score: 0.7816
+    support: 43.0000
+  Class 8:
+    precision: 0.8125
+    recall: 0.6667
+    f1-score: 0.7324
+    support: 39.0000
+  Class 9:
+    precision: 0.8222
+    recall: 0.8409
+    f1-score: 0.8315
+    support: 44.0000
+  accuracy: 0.7525
+  macro avg:
+    precision: 0.7547
+    recall: 0.7525
+    f1-score: 0.7506
+    support: 400.0000
+  weighted avg:
+    precision: 0.7603
+    recall: 0.7525
+    f1-score: 0.7535
+    support: 400.0000
+Classification report saved to figs_random_connected_snn_10cls\classification_report_snn.csv
+Output files will be saved to directory: figs_random_connected_snn_10cls
+Confusion matrix plot saved to figs_random_connected_snn_10cls\confusion_matrix_snn.png
+Generating PCA visualization of reservoir states (Random SNN)...
+PCA explained variance (Random SNN): PC1 = 0.02, PC2 = 0.02, Total = 0.04
+PCA projection saved to figs_random_connected_snn_10cls\reservoir_states_pca_snn.png
+Script finished.

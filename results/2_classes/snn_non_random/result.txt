@@ -1,0 +1,27 @@
+===== SNN Evaluation Summary for DMN =====
+Region Configuration: DMN
+Nodes: 276
+Accuracy: 1.0000
+Macro F1: 1.0000
+Micro F1: 1.0000
+Weighted F1: 1.0000
+Confusion Matrix:
+[[66  0]
+ [ 0 54]]
+Confusion matrix plot saved to figs_snn_nonrandom_DMN\confusion_matrix_snn_DMN.png
+Classification Report:
+              precision  recall  f1-score  support
+0                1.0000  1.0000    1.0000  66.0000
+1                1.0000  1.0000    1.0000  54.0000
+accuracy         1.0000  1.0000    1.0000   1.0000
+macro avg        1.0000  1.0000    1.0000 120.0000
+weighted avg     1.0000  1.0000    1.0000 120.0000
+Classification report saved to figs_snn_nonrandom_DMN\classification_report_snn_DMN.csv
+Generating PCA visualization...
+PCA explained variance: PC1 = 0.05, PC2 = 0.04, Total = 0.09
+PCA projection saved to figs_snn_nonrandom_DMN\pca_projection_snn_DMN.png
+
+---------------------------------
+Total evaluation time: 1.31 seconds
+Results and plots saved in: figs_snn_nonrandom_DMN
+Script finished.

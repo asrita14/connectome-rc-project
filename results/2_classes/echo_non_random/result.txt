@@ -1,0 +1,53 @@
+node_number=209
+
+(CS9223) D:\CS9223\project\conn2res\examples\project_prototype>python echo_nonrandom_best_combination.py
+Full connectome loaded with 1010 nodes in 0.63s.
+Data loaded (600 samples) in 0.00s.
+===== Evaluating DA+VIS Region Combination =====
+--- Evaluating Region(s): DA+VIS (2 regions) ---
+Using 209 nodes for DA+VIS.
+Accuracy for DA+VIS: 0.8583
+Macro F1 for DA+VIS: 0.8539
+Micro F1 for DA+VIS: 0.8583
+Weighted F1 for DA+VIS: 0.8564
+--- Finished DA+VIS in 0.05s ---
+===== Evaluation Summary =====
+Region Configuration: DA+VIS
+Reservoir Size: 209
+Accuracy: 0.8583
+Macro F1: 0.8539
+Micro F1: 0.8583
+Weighted F1: 0.8564
+
+Confusion Matrix:
+[[62  4]
+ [13 41]]
+
+Classification Report:
+  Class 0:
+    precision: 0.8267
+    recall: 0.9394
+    f1-score: 0.8794
+    support: 66.0000
+  Class 1:
+    precision: 0.9111
+    recall: 0.7593
+    f1-score: 0.8283
+    support: 54.0000
+  Class macro avg:
+    precision: 0.8689
+    recall: 0.8493
+    f1-score: 0.8539
+    support: 120.0000
+  Class weighted avg:
+    precision: 0.8647
+    recall: 0.8583
+    f1-score: 0.8564
+    support: 120.0000
+
+Accuracy: 0.8583
+Confusion matrix saved as 'confusion_matrix_DA_VIS.png'
+Classification report saved as 'classification_report_DA_VIS.csv'
+---------------------------------
+Total evaluation time: 0.05 seconds (0.00 minutes)
+Script finished.

@@ -1,0 +1,97 @@
+(CS9223) D:\CS9223\project\conn2res\examples\project_prototype>python echo_random_connected_10_classes.py
+Reservoir size determined from connectome: N_RESERVOIR = 209
+Data loaded: Train samples=1600, Test samples=400, Input features=30
+ESN parameters: Reservoir size=209, Spectral radius=0.95, Leaking rate=1
+Generating random ESN matrices...
+Reservoir matrix W generated. Spectral radius scaled to approx 0.95
+Simulating ESN for training data...
+Simulating ESN for testing data...
+Training classifier (Random ESN)...
+
+===== Evaluation Summary (Random ESN) =====
+Accuracy: 0.7700
+Macro F1: 0.7662
+Micro F1: 0.7700
+Weighted F1: 0.7709
+
+Confusion Matrix:
+[[29  1  2  0  3  2  0  2  0  2]
+ [ 1 40  1  0  0  2  2  0  0  3]
+ [ 1  0 23  1  1  1  1  0  2  1]
+ [ 0  0  1 31  0  4  2  0  1  2]
+ [ 0  2  0  0 24  0  3  2  1  2]
+ [ 0  2  2  1  0 25  0  1  1  0]
+ [ 0  2  0  1  0  1 39  1  1  1]
+ [ 3  1  2  1  0  1  0 34  0  1]
+ [ 1  0  1  3  0  4  1  0 29  0]
+ [ 1  1  2  0  0  0  2  1  3 34]]
+
+Classification Report:
+  Class 0:
+    precision: 0.8056
+    recall: 0.7073
+    f1-score: 0.7532
+    support: 41.0000
+  Class 1:
+    precision: 0.8163
+    recall: 0.8163
+    f1-score: 0.8163
+    support: 49.0000
+  Class 2:
+    precision: 0.6765
+    recall: 0.7419
+    f1-score: 0.7077
+    support: 31.0000
+  Class 3:
+    precision: 0.8158
+    recall: 0.7561
+    f1-score: 0.7848
+    support: 41.0000
+  Class 4:
+    precision: 0.8571
+    recall: 0.7059
+    f1-score: 0.7742
+    support: 34.0000
+  Class 5:
+    precision: 0.6250
+    recall: 0.7812
+    f1-score: 0.6944
+    support: 32.0000
+  Class 6:
+    precision: 0.7800
+    recall: 0.8478
+    f1-score: 0.8125
+    support: 46.0000
+  Class 7:
+    precision: 0.8293
+    recall: 0.7907
+    f1-score: 0.8095
+    support: 43.0000
+  Class 8:
+    precision: 0.7632
+    recall: 0.7436
+    f1-score: 0.7532
+    support: 39.0000
+  Class 9:
+    precision: 0.7391
+    recall: 0.7727
+    f1-score: 0.7556
+    support: 44.0000
+  accuracy: 0.7700
+  macro avg:
+    precision: 0.7708
+    recall: 0.7664
+    f1-score: 0.7662
+    support: 400.0000
+  weighted avg:
+    precision: 0.7760
+    recall: 0.7700
+    f1-score: 0.7709
+    support: 400.0000
+Classification report saved to figs_random_connected_esn_10_classes\classification_report_esn.csv
+Output files will be saved to directory: figs_random_connected_esn_10_classes
+Confusion matrix plot saved to figs_random_connected_esn_10_classes\confusion_matrix_esn.png
+Generating PCA visualization of reservoir states (Random ESN)...
+PCA explained variance (Random ESN): PC1 = 0.05, PC2 = 0.05, Total = 0.10
+PCA projection saved to figs_random_connected_esn_10_classes\reservoir_states_pca_esn.png
+Script finished.

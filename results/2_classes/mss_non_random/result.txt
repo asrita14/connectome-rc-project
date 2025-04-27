@@ -1,0 +1,29 @@
+node_number = 427
+
+===== Evaluation Summary (MSS VIS+DMN) =====
+Accuracy: 0.9917
+Macro F1: 0.9916
+Micro F1: 0.9917
+Weighted F1: 0.9917
+
+Confusion Matrix:
+[[66  0]
+ [ 1 53]]
+
+Classification Report:
+              precision  recall  f1-score  support
+0                0.9851  1.0000    0.9925  66.0000
+1                1.0000  0.9815    0.9907  54.0000
+accuracy         0.9917  0.9917    0.9917   0.9917
+macro avg        0.9925  0.9907    0.9916 120.0000
+weighted avg     0.9918  0.9917    0.9917 120.0000
+
+Classification report saved to figs_mss_vis_dmn\classification_report_mss.csv
+Output files will be saved to directory: figs_mss_vis_dmn
+Confusion matrix plot saved to figs_mss_vis_dmn\confusion_matrix_mss.png
+
+Generating PCA visualization of reservoir states...
+PCA explained variance: PC1 = 0.59, PC2 = 0.09, Total = 0.67
+PCA projection saved to figs_mss_vis_dmn\reservoir_states_pca_mss.png
+
+Script finished.

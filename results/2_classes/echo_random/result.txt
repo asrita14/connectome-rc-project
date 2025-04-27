@@ -1,0 +1,50 @@
+(CS9223) D:\CS9223\project\conn2res\examples\project_prototype>python echo_random_connected.py
+Reservoir size determined from connectome: N_RESERVOIR = 209
+Data loaded: Train samples=480, Test samples=120, Input features=30
+ESN parameters: Reservoir size=209, Spectral radius=0.95, Leaking rate=0.3
+Generating random ESN matrices...
+Reservoir matrix W generated. Spectral radius scaled to approx 0.95
+Simulating ESN for training data...
+Simulating ESN for testing data...
+Training classifier (Random ESN)...
+
+===== Evaluation Summary (Random ESN) =====
+Accuracy: 0.8500
+Macro F1: 0.8438
+Micro F1: 0.8500
+Weighted F1: 0.8469
+
+Confusion Matrix:
+[[63  3]
+ [15 39]]
+
+Classification Report:
+  Class 0:
+    precision: 0.8077
+    recall: 0.9545
+    f1-score: 0.8750
+    support: 66.0000
+  Class 1:
+    precision: 0.9286
+    recall: 0.7222
+    f1-score: 0.8125
+    support: 54.0000
+  Class macro avg:
+    precision: 0.8681
+    recall: 0.8384
+    f1-score: 0.8438
+    support: 120.0000
+  Class weighted avg:
+    precision: 0.8621
+    recall: 0.8500
+    f1-score: 0.8469
+    support: 120.0000
+
+Accuracy (from report): 0.8500
+Classification report saved to figs_random_connected_esn\classification_report_esn.csv
+Output files will be saved to directory: figs_random_connected_esn
+Confusion matrix plot saved to figs_random_connected_esn\confusion_matrix_esn.png
+Generating PCA visualization of reservoir states (Random ESN)...
+PCA explained variance (Random ESN): PC1 = 0.18, PC2 = 0.13, Total = 0.31
+PCA projection saved to figs_random_connected_esn\reservoir_states_pca_esn.png
+Script finished.
